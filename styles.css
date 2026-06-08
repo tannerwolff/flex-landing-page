@@ -120,10 +120,46 @@ img {
 .quote {
   font-size: 24px;
   color: gray;
+  font-style: italic;
 }
 
 .author {
   text-align: right;
   font-weight: 900;
   margin-top: 5px;
+}
+
+.cta-section {
+  width: 600px;
+  margin: 60px auto;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-big-text {
+  font-weight: 900;
+  color: #efe7eb;
+}
+
+.cta-small-text {
+  font-size: 12px;
+  color: #e5e7eb;
+}
+
+.cta-right-side button {
+  border: 1px solid #efe7eb;
+}
+
+.footer-section-wrapper {
+  background-color: #1f2937;
+  padding: 20px;
+}
+
+.footer-section {
+  text-align: center;
+  color: #e5e7eb;
+  font-size: 10px;
 }
